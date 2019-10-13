@@ -3,7 +3,7 @@ A collection of data structures and algorithms implemented in Java
 
 ## Available Implementations
 
-- TBD
+- Binary Search
 
 ## Project Structure
 
@@ -11,6 +11,6 @@ A collection of data structures and algorithms implemented in Java
 - Each module contains a *Demo* class which acts as the entry point
 
 
-# Note
+## Note
 - This is the "development" branch. 
 - Documentation is work-in-progress
