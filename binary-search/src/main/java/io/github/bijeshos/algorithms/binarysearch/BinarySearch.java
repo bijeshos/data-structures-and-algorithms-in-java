@@ -2,7 +2,11 @@ package io.github.bijeshos.algorithms.binarysearch;
 
 public class BinarySearch {
 
-    public static int search(int[] array, int valueToFind, int leftPosition, int rightPosition) {
+    public static void initSearch(int[] inputArray, int valueToFind) {
+        BinarySearch.search(inputArray, valueToFind, 0, inputArray.length - 1);
+    }
+
+    private static int search(int[] array, int valueToFind, int leftPosition, int rightPosition) {
         System.out.println("Searching with value-to-find: " + valueToFind + ", left-position: " + leftPosition + ", right-position: " + rightPosition);
         if (rightPosition < leftPosition) {
             System.out.println("No match found for value-to-find [" + valueToFind + "]");
