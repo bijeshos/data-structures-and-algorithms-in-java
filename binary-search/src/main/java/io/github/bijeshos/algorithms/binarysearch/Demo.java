@@ -1,7 +1,5 @@
 package io.github.bijeshos.algorithms.binarysearch;
 
-import javax.naming.BinaryRefAddr;
-
 public class Demo {
 
     public static void main(String[] args) {
